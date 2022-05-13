@@ -1,7 +1,7 @@
 package com.example.doubleEntryBooking.usecase;
 
 import com.example.doubleEntryBooking.adapter.db.UserMemoryDB;
-import com.example.doubleEntryBooking.adapter.db.UserRepository;
+import com.example.doubleEntryBooking.adapter.db.repository.UserRepository;
 import com.example.doubleEntryBooking.entity.domain.User;
 import com.example.doubleEntryBooking.entity.UserEntity;
 import org.junit.jupiter.api.BeforeEach;

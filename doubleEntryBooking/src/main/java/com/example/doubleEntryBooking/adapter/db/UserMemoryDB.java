@@ -1,5 +1,6 @@
 package com.example.doubleEntryBooking.adapter.db;
 
+import com.example.doubleEntryBooking.adapter.db.repository.UserRepository;
 import com.example.doubleEntryBooking.entity.domain.User;
 import org.springframework.stereotype.Repository;
 

@@ -1,8 +1,7 @@
 package com.example.doubleEntryBooking.adapter.web;
 
 import com.example.doubleEntryBooking.adapter.db.UserMemoryDB;
-import com.example.doubleEntryBooking.adapter.db.UserRepository;
-import com.example.doubleEntryBooking.adapter.web.UserController;
+import com.example.doubleEntryBooking.adapter.db.repository.UserRepository;
 import com.example.doubleEntryBooking.entity.domain.User;
 import com.example.doubleEntryBooking.entity.UserEntity;
 import com.example.doubleEntryBooking.usecase.UserService;

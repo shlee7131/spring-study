@@ -1,5 +1,6 @@
 package com.example.doubleEntryBooking.adapter.db;
 
+import com.example.doubleEntryBooking.adapter.db.repository.JournalRepository;
 import com.example.doubleEntryBooking.entity.domain.AccountType;
 import com.example.doubleEntryBooking.entity.domain.Journal;
 import com.example.doubleEntryBooking.entity.domain.User;

@@ -1,5 +1,6 @@
 package com.example.doubleEntryBooking.adapter.db;
 
+import com.example.doubleEntryBooking.adapter.db.repository.AccountTypeRepository;
 import com.example.doubleEntryBooking.entity.domain.AccountType;
 import org.springframework.stereotype.Repository;
 
@@ -10,7 +11,7 @@ import java.util.Map;
 import java.util.Map.Entry;
 
 @Repository
-public class AccountTypeMemoryDB implements AccountTypeRepository{
+public class AccountTypeMemoryDB implements AccountTypeRepository {
     private final Map<Long, AccountType> map = new HashMap<>();
 
     @Override

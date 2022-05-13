@@ -1,6 +1,6 @@
 package com.example.doubleEntryBooking.entity;
 
-import com.example.doubleEntryBooking.adapter.db.AccountTypeRepository;
+import com.example.doubleEntryBooking.adapter.db.repository.AccountTypeRepository;
 import com.example.doubleEntryBooking.entity.domain.AccountType;
 import org.springframework.stereotype.Component;
 
