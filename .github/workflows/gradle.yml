@@ -17,9 +17,10 @@ permissions:
   contents: read
 
 jobs:
-  build:
-
+  build:      
     runs-on: ubuntu-latest
+    env: 
+      working-directory: ./doubleEntryBooking
 
     steps:
     - uses: actions/checkout@v3
